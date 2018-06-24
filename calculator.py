@@ -59,3 +59,7 @@ while True:
 
 	if token[0] == "square":
 		print(square(float(token[1])))
+
+	if token[0] == "cube":
+		print(cube(float(token[1])))
+
