@@ -63,3 +63,5 @@ while True:
 	if token[0] == "cube":
 		print(cube(float(token[1])))
 
+	if token[0] == "pow":
+		print(pow(float(token[1]), float(token[2])))
