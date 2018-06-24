@@ -54,5 +54,8 @@ while True:
 	if token[0] == "*":
 		print(multiply(float(token[1]), float(token[2])))
 
-		
+	if token[0] == "/":
+		print(divide(float(token[1]), float(token[2])))
+
+
 
