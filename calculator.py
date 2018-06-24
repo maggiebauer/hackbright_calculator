@@ -47,3 +47,7 @@ while True:
 
 	if token[0] == "+":
 		print(add(float(token[1]), float(token[2])))
+
+	if token[0] == "-":
+		print(subtract(float(token[1]), float(token[2])))
+		
